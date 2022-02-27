@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+}
+
+.header {
+    color: white;
+    background: #63b175;
+}
+
+.sidebar {
+    color: white;
+    background: red;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 100%;
+    //background: url("../img/spring.svg");
+    background: url("../img/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.header-menu {
+    color: white;
+    background: #63b175;
+}
+
+.ant-menu-item-selected {
+    span {
+        color: black;
+    }
+}
+
+.ant-menu-title-content{
+    font-size: 1rem;
+}
+
+.ant-breadcrumb {
+    font-size: 2rem;
+}
