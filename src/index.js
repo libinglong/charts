@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import RqhChart from "./page/ztjd";
+import Sheet from "./page/sheet";
 
 
 
@@ -13,7 +14,7 @@ ReactDOM.render(
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<App />} >
-                  <Route path={"ztjd"} element={<RqhChart />} />
+                  <Route path={"ztjd"} element={<Sheet />} />
               </Route>
           </Routes>
       </BrowserRouter>
